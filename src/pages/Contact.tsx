@@ -65,6 +65,7 @@ export default function Contact() {
               <option value="portfolio">Portfolio Creation</option>
               <option value="linkedin">LinkedIn Optimization</option>
               <option value="project">Project Development</option>
+              <option value="project">Chatbot Development</option>
               <option value="hosting">Domain & Hosting</option>
             </select>
           </div>

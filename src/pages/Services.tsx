@@ -60,7 +60,7 @@ const services: ServiceItem[] = [
     title: 'Project Development',
     description: 'Custom software solutions for your business needs',
     price: '₹750 - ₹4000',
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2plY3QlMjBkZXZlbG9wbWVudHxlbnwwfHwwfHx8MA%3D%3D',
     details: [
       'Web Development (E-Commerce, Online Bookstore)',
       'App Development (Language Translator, Slides Remote)',
@@ -71,10 +71,22 @@ const services: ServiceItem[] = [
     ]
   },
   {
+    title: 'Chatbot Development',
+    description: 'Automate customer support with AI-powered chatbots',
+    price: '₹500 - ₹1000',
+    
+    image: 'https://plus.unsplash.com/premium_photo-1682023587356-86065925727a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhdGJvdHxlbnwwfHwwfHx8MA%3D%3D',
+    details: [
+      'Voice flow',
+      'React Chatbot', 
+      'Python Chatbot',
+    ]
+  },
+  {
     title: 'Domain & Hosting',
     description: 'Complete hosting solutions for your digital presence',
     price: '₹300 - ₹500',
-    image: 'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=800',
+    image: 'https://plus.unsplash.com/premium_photo-1661386261378-8ed99f4e37ba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG9zdGluZ3xlbnwwfHwwfHx8MA%3D%3D',
     details: [
       'Website Hosting',
       'Custom Domain Registration',

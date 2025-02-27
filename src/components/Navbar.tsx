@@ -6,12 +6,14 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
-  const navLinks = [
-    { path: '/', label: 'Home' },
-    { path: '/services', label: 'Services' },
-    { path: '/portfolio', label: 'Portfolio' },
-    { path: '/contact', label: 'Contact' }
-  ];
+    const navLinks = [
+        { path: '/', label: 'Home' },
+        { path: '/services', label: 'Services' },
+        { path: '/portfolio', label: 'Portfolio' },
+        { path: '/contact', label: 'Contact' },
+        { path: '/offers-and-updates', label: 'Offers and Updates' }
+    ];
+
 
   const isActive = (path: string) => location.pathname === path;
 
